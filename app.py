@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request, send_file, render_template
 import mysql.connector
-import bcrypt
 
 
 app = Flask(__name__)
